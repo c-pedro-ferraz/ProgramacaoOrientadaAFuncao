@@ -472,25 +472,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\cpedr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao.csproj",
+      "projectUniqueName": "C:\\Users\\cpedr\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao.csproj",
       "projectName": "ProgramacaoOrientadaAFuncao",
-      "projectPath": "C:\\Users\\HP\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\obj\\",
+      "projectPath": "C:\\Users\\cpedr\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao.csproj",
+      "packagesPath": "C:\\Users\\cpedr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cpedr\\OneDrive\\Estudos\\Tecnologia\\Visual Studio\\source\\repos\\ProgramacaoOrientadaAFuncao\\ProgramacaoOrientadaAFuncao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cpedr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
