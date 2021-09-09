@@ -23,13 +23,13 @@ namespace Funcoes
 
                 Console.WriteLine(mensagem);
 
-                int valor = int.Parse(Console.ReadLine());              
+                int valor = int.Parse(Console.ReadLine());
 
                 if (valor == 0)
                 {
                     break;
                 }
-                else if(valor == 1)
+                else if (valor == 1)
                 {
                     var cliente = new Cliente();
                     Console.WriteLine("Digite o nome do cliente");
