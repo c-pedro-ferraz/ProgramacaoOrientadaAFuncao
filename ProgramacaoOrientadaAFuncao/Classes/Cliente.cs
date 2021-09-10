@@ -77,6 +77,9 @@ namespace Classes
             }
         }
 
+
+   
+
         private void Olhar()
         {
             Console.WriteLine("O cliente " + this.Nome + " " + this.sobrenome + " está olhando para mim");
@@ -86,7 +89,7 @@ namespace Classes
         {
             return ConfigurationManager.AppSettings["BaseDeClientes"];
         }      
-
+                
         public static List<Cliente> LerClientes()
         {
             var clientes = new List<Cliente>();
