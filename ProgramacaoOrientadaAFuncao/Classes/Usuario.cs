@@ -26,11 +26,21 @@ namespace Classes
             return ConfigurationManager.AppSettings["BaseDeUsuarios"];
         }
 
-        public void Gravar()
-        {          
+        public override void Olhar()
+        {
+            int resultado = this.CalcularUmMaisDois();
+
+            Console.WriteLine("O usuario " + this.Nome + " nai ten i sibrebinem oius este é atributo da classe api está olhando para mim");
+            Console.WriteLine("==========================");
+            Console.WriteLine("==========================");
+            Console.WriteLine("O método original é:");
+            base.Olhar();
+        }
+
+        public override void Gravar()
+        {                          
             var usuario = Usuario.LerUsuarios();
-            Usuario u = new Usuario(this.Nome, this.Telefone, this.CPF);
-            usuario.Add(u);
+            usuario.Add(this);
 
             if (File.Exists(caminhoBase()))
                 {
@@ -46,6 +56,7 @@ namespace Classes
             }
 
         }
+
         public static List<Usuario> LerUsuarios()
         {
             var usuarios = new List<Usuario>();

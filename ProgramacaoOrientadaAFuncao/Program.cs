@@ -15,38 +15,41 @@ namespace ProgramacaoOrientadaAFuncao
         {
             //Menu.Criar();
 
-            Console.WriteLine("=========== Cadastro de Cliente ==========");
+            /* Console.WriteLine("=========== Cadastro de Cliente ==========");
+             Cliente c = new Cliente();
+             c.Nome = "Cliente";
+             c.Telefone = "Cliente22222";
+             c.CPF = "Cliente3333333";
+
+             c.Gravar();
+
+             foreach (Cliente c1 in Cliente.LerClientes())
+             {
+                 Console.WriteLine(c1.Nome);
+                 Console.WriteLine(c1.Telefone);
+                 Console.WriteLine(c1.CPF);
+                 Console.WriteLine("=======================");
+             }*/
+
             Cliente c = new Cliente();
-            c.Nome = "teste";
-            c.Telefone = "teste1";
-            c.CPF = "teste2";
-
-            c.Gravar();
-
-            foreach (Cliente c1 in Cliente.LerClientes())
-            {
-                Console.WriteLine(c1.Nome);
-                Console.WriteLine(c1.Telefone);
-                Console.WriteLine(c1.CPF);
-                Console.WriteLine("=======================");
-            }
+            c.CalcularUmMaisDois3();
 
             Console.WriteLine("=========== Cadastro de Usuario ==========");
 
             Usuario u = new Usuario();
-            u.Nome = "teste";
-            u.Telefone = "teste1";
-            u.CPF = "teste2";
+            u.Nome = "Usuario";
+            u.Telefone = "Usuario2222222";
+            u.CPF = "Usuario33333333";
 
-            u.Gravar();
+            u.Olhar();
             
-            foreach(Usuario us in Usuario.LerUsuarios())
+          /*  foreach(Usuario us in Usuario.LerUsuarios())
             {
                 Console.WriteLine(us.Nome);
                 Console.WriteLine(us.Telefone);
                 Console.WriteLine(us.CPF);
                 Console.WriteLine("=======================");
-            }
+            }*/
         }
     }
 }

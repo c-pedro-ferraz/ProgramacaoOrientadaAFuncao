@@ -58,7 +58,22 @@ namespace Classes
 
         private string sobrenome = "Santos";
 
-        public void Gravar()
+        protected int CalcularUmMaisDois()
+        {
+            return 1 + 2;
+        }
+
+        private int CalcularUmMaisDois2()
+        {
+            return 1 + 2;
+        }
+
+        public int CalcularUmMaisDois3()
+        {
+            return 1 + 2;
+        }
+
+        public virtual void Gravar()
         {
             var clientes = Cliente.LerClientes();
             //Usuario u = new Usuario(this.Nome, this.Telefone, this.CPF);
@@ -80,7 +95,7 @@ namespace Classes
 
    
 
-        private void Olhar()
+        public virtual void Olhar()
         {
             Console.WriteLine("O cliente " + this.Nome + " " + this.sobrenome + " está olhando para mim");
         }
