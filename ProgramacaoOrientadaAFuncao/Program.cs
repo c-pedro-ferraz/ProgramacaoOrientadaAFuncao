@@ -13,7 +13,7 @@ namespace ProgramacaoOrientadaAFuncao
     {            
         static void Main(string[] args)
         {
-            Menu.Criar();
+            //Menu.Criar();
 
             Console.WriteLine("=========== Cadastro de Cliente ==========");
             Cliente c = new Cliente();
