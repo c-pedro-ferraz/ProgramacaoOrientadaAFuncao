@@ -1,5 +1,6 @@
 ﻿using Calculo;
 using Classes;
+using Componentes;
 using Diretorio;
 using Funcoes;
 using System;
@@ -31,8 +32,12 @@ namespace ProgramacaoOrientadaAFuncao
                  Console.WriteLine("=======================");
              }*/
 
+            Ferramentas f = new Ferramentas();
+            bool d = f.ValidarCPF()
+
             Cliente c = new Cliente();
             c.CalcularUmMaisDois3();
+            
 
             Console.WriteLine("=========== Cadastro de Usuario ==========");
 
